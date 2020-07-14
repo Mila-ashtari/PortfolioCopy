@@ -1,0 +1,52 @@
+
+header{
+    position: relative;
+    max-height: 700px;
+    height:90vh;
+    nav{
+        background-image: url(../assets/imageedit_3_8512704146.png);
+        background-size: cover;
+        float: right;
+        
+        padding: 30px;
+        width: 60%;
+        height:100%;
+        a{
+            color: white;
+            text-transform: uppercase;
+            font-family: 'Jost',cursive;
+            font-size: 15px;
+        }
+        .horizontal{
+            ul{
+            display: flex;
+            justify-content: flex-end;
+            margin: 0;
+        
+            li{
+                margin:0 20px;
+            }
+        }}
+        .hamburgerMenu{
+            display: none;    
+        }
+    }
+    .mAshtari{
+        position: absolute;
+        top: 25%;
+        right: 55%;
+        border-top: rgb(101, 167, 179) solid 4px;
+        border-left: rgb(101, 167, 179) solid 4px;
+        padding:20px;
+    }
+    .mAshtari:after {
+        content: ""; /* This is necessary for the pseudo element to work. */ 
+        display: block; /* This will put the pseudo element on its own line. */
+        width: 50%; /* Change this to whatever width you want. */
+        border-bottom: rgb(101, 167, 179) solid 4px; /* This creates the border. Replace black with whatever color you want. */ 
+        position: absolute;
+        left:0;
+        bottom:0;
+
+}
+}

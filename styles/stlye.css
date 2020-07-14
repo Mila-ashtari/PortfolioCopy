@@ -1,0 +1,766 @@
+html {
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+article, aside, footer, header, nav, section {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+figcaption, figure, main {
+  display: block;
+}
+
+figure {
+  margin: 1em 40px;
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+b, strong {
+  font-weight: inherit;
+}
+
+b, strong {
+  font-weight: bolder;
+}
+
+code, kbd, samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+audio, video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+img {
+  border-style: none;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+button, input, optgroup, select, textarea {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button, input {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, html [type=button], [type=reset], [type=submit] {
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner, [type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring, [type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+progress {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+textarea {
+  overflow: auto;
+}
+
+[type=checkbox], [type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type=search] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+[type=search]::-webkit-search-cancel-button, [type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+details, menu {
+  display: block;
+}
+
+summary {
+  display: list-item;
+}
+
+canvas {
+  display: inline-block;
+}
+
+template {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: "";
+  clear: both;
+  height: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  line-height: 1.5;
+}
+
+.wrapper {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+p, a, li {
+  font-family: "Jost", cursive;
+  font-size: 17px;
+}
+
+h1 {
+  text-transform: capitalize;
+  font-family: "Jost", cursive;
+  text-shadow: 2px 2px white;
+}
+
+h2 {
+  font-family: "Jost", cursive;
+}
+
+h3 {
+  font-family: "Jost", cursive;
+}
+
+li {
+  list-style: none;
+}
+
+section.aboutMe, section.skills, section.myPortfolio {
+  margin: 150px auto;
+}
+
+header {
+  position: relative;
+  max-height: 700px;
+  height: 90vh;
+}
+header nav {
+  background-image: url(../assets/imageedit_3_8512704146.png);
+  background-size: cover;
+  float: right;
+  padding: 30px;
+  width: 60%;
+  height: 100%;
+}
+header nav a {
+  color: white;
+  text-transform: uppercase;
+  font-family: "Jost", cursive;
+  font-size: 15px;
+}
+header nav .horizontal ul {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+}
+header nav .horizontal ul li {
+  margin: 0 20px;
+}
+header nav .hamburgerMenu {
+  display: none;
+}
+header .mAshtari {
+  position: absolute;
+  top: 25%;
+  right: 55%;
+  border-top: #65a7b3 solid 4px;
+  border-left: #65a7b3 solid 4px;
+  padding: 20px;
+}
+header .mAshtari:after {
+  content: "";
+  /* This is necessary for the pseudo element to work. */
+  display: block;
+  /* This will put the pseudo element on its own line. */
+  width: 50%;
+  /* Change this to whatever width you want. */
+  border-bottom: #65a7b3 solid 4px;
+  /* This creates the border. Replace black with whatever color you want. */
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+section.aboutMe {
+  position: relative;
+  display: flex;
+}
+section.aboutMe svg {
+  position: absolute;
+  top: -70px;
+  right: 60%;
+}
+section.aboutMe .iAmMila {
+  width: 50%;
+}
+section.aboutMe .iAmMila h2, section.aboutMe .iAmMila p {
+  text-align: right;
+}
+section.aboutMe .iAmMila .container {
+  position: relative;
+}
+section.aboutMe .iAmMila .container img {
+  width: 100%;
+  margin-top: 40px;
+  display: block;
+}
+section.aboutMe .iAmMila .container .resume {
+  position: absolute;
+  bottom: 20%;
+  right: -15%;
+  padding: 10px 30px;
+  background-color: #e96868;
+  border-left: solid white 3px;
+}
+section.aboutMe .iAmMila .container .resume a {
+  display: block;
+  margin: 15px 0;
+  color: white;
+}
+section.aboutMe .description {
+  margin-left: 50px;
+  width: 50%;
+}
+section.aboutMe .description p {
+  padding: 0 20px;
+  text-shadow: 2px 2px white;
+}
+
+section.skills {
+  position: relative;
+  width: 85%;
+}
+section.skills h2 {
+  margin: 40px 0;
+  text-align: right;
+}
+section.skills svg {
+  display: block;
+  position: absolute;
+  right: -50px;
+  top: -70px;
+}
+section.skills ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 30px;
+  padding: 0;
+}
+section.skills ul li {
+  text-align: center;
+  background-image: url(../assets/iconBackground.png);
+  background-size: 40px;
+  background-repeat: no-repeat;
+  background-position: 40% 20%;
+}
+section.skills ul h3 {
+  margin: 15px 0;
+}
+section.skills ul i {
+  font-size: 40px;
+  text-shadow: 3px 3px 3px grey;
+}
+section.skills .responsiveDesign {
+  width: 40px;
+}
+
+section.myPortfolio {
+  width: 85%;
+  position: relative;
+}
+section.myPortfolio svg {
+  position: absolute;
+  top: -100px;
+  left: -50px;
+}
+section.myPortfolio ul {
+  padding: 0;
+}
+section.myPortfolio ul h3 {
+  color: #e96868;
+  margin-top: 0;
+}
+section.myPortfolio ul li {
+  margin: 80px 0;
+  display: flex;
+}
+section.myPortfolio ul li img {
+  width: 50%;
+  align-self: flex-start;
+}
+section.myPortfolio ul li div {
+  margin: 0 20px;
+  width: calc(100%/2 - 40px);
+}
+section.myPortfolio ul li div .usedTechs {
+  display: flex;
+  margin: 16px 0;
+}
+section.myPortfolio ul li div .usedTechs li {
+  margin: 0;
+}
+section.myPortfolio ul li div .links {
+  display: flex;
+  margin: 16px 0;
+}
+section.myPortfolio ul li div .links li {
+  margin: 0;
+  margin-right: 10px;
+}
+section.myPortfolio ul li div .links li button {
+  padding: 7px;
+  background-color: #e96868;
+  border: none;
+  color: white;
+  font-size: 15px;
+}
+section.myPortfolio ul li div .links li button:hover {
+  background-color: #add0d7;
+}
+section.myPortfolio ul li div .links li a {
+  text-decoration: none;
+  color: white;
+}
+
+section.getInTouch {
+  width: 85%;
+  border: solid 4px #65a7b3;
+  padding: 70px;
+  position: relative;
+}
+section.getInTouch h2 {
+  text-align: center;
+}
+section.getInTouch svg {
+  position: absolute;
+  left: 30%;
+  top: 0;
+}
+section.getInTouch form input {
+  display: inline-block;
+  border: none;
+  border-bottom: solid 1px #65a7b363;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 15px;
+}
+section.getInTouch form #name, section.getInTouch form #email {
+  width: calc(100%/2 - 10px);
+}
+section.getInTouch form #name {
+  margin-right: 10px;
+}
+section.getInTouch form #subject, section.getInTouch form #message {
+  width: 100%;
+}
+section.getInTouch form #message {
+  height: 50px;
+}
+section.getInTouch form button {
+  display: block;
+  margin: 10px auto;
+  padding: 7px;
+  background-color: #e96868;
+  border: none;
+  color: white;
+  font-size: 15px;
+}
+section.getInTouch form button:hover {
+  background-color: #add0d7;
+}
+section.getInTouch .socialMedia {
+  position: absolute;
+  right: -55px;
+  top: 30%;
+}
+section.getInTouch .socialMedia li i {
+  color: #e96868;
+  font-size: 25px;
+  margin: 10px 10px;
+}
+section.getInTouch .socialMedia li a {
+  color: black;
+  text-decoration: none;
+}
+
+footer.wrapper {
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+}
+footer.wrapper p {
+  font-size: 17px;
+}
+footer.wrapper p span:nth-of-type(1) {
+  color: #e96868;
+}
+footer.wrapper p span:nth-of-type(2) {
+  color: grey;
+  font-size: 12px;
+}
+footer.wrapper li {
+  font-size: 17px;
+  margin: 10px 0;
+}
+footer.wrapper li i {
+  color: #e96868;
+  font-size: 20px;
+  margin: 0 10px;
+}
+footer.wrapper li a {
+  color: black;
+  text-decoration: none;
+}
+
+@media (max-width: 800px) {
+  header.wrapper {
+    width: auto;
+  }
+  header.wrapper nav {
+    width: 100%;
+    padding: 50px 20px 50px 20px;
+  }
+  header.wrapper nav .horizontal {
+    display: none;
+  }
+  header.wrapper nav .hamburgerMenu {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+  }
+  header.wrapper nav .hamburgerMenu button {
+    background-color: rgba(255, 255, 255, 0);
+    align-self: flex-start;
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+    border: none;
+    text-shadow: 3px 3px #376a85;
+  }
+  header.wrapper nav .hamburgerMenu ul {
+    position: absolute;
+    display: none;
+    right: -200px;
+    transition: right 500ms;
+    padding: 0;
+    background-color: #65a7b3af;
+    margin: 0;
+    color: white;
+  }
+  header.wrapper nav .hamburgerMenu ul li:first-of-type {
+    text-align: right;
+    font-size: 20px;
+    text-shadow: 3px 3px #376a85;
+  }
+  header.wrapper nav .hamburgerMenu ul li:first-of-type:hover {
+    background-color: #65a7b300;
+  }
+  header.wrapper nav .hamburgerMenu ul li {
+    padding: 15px 15px;
+    text-shadow: 2px 2px #376a85;
+  }
+  header.wrapper nav .hamburgerMenu ul li:hover {
+    background-color: #223cd33a;
+  }
+  header.wrapper nav .hamburgerMenu ul a {
+    text-transform: uppercase;
+  }
+  header.wrapper .mAshtari {
+    top: 50px;
+    left: 20px;
+    width: 50%;
+  }
+  header.wrapper .mAshtari h1 {
+    color: white;
+    text-shadow: 2px 2px #2a424e;
+  }
+  header.wrapper .mAshtari:after {
+    width: 30%;
+  }
+
+  section.aboutMe {
+    flex-direction: column;
+  }
+  section.aboutMe svg {
+    top: -60px;
+    right: 45%;
+  }
+  section.aboutMe .iAmMila {
+    width: 70%;
+  }
+  section.aboutMe .iAmMila .container .resume {
+    bottom: 20%;
+    right: -30%;
+  }
+  section.aboutMe .description {
+    margin-left: 0;
+    margin-top: 20px;
+    width: 100%;
+  }
+}
+@media (min-width: 900px) {
+  section.getInTouch svg {
+    left: 35%;
+  }
+}
+@media (max-width: 700px) {
+  section.skills ul {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  section.myPortfolio {
+    width: 100%;
+  }
+  section.myPortfolio svg {
+    left: -20px;
+  }
+  section.myPortfolio ul li.left, section.myPortfolio ul li.right {
+    flex-direction: column;
+    margin: 80px 0;
+  }
+  section.myPortfolio ul li.left div, section.myPortfolio ul li.right div {
+    width: 100%;
+    margin: 0;
+  }
+  section.myPortfolio ul li.left img, section.myPortfolio ul li.right img {
+    width: 80%;
+    margin: 0 auto;
+  }
+  section.myPortfolio ul li.right img {
+    order: -1;
+  }
+}
+@media (max-width: 600px) {
+  section.skills ul li i {
+    font-size: 30px;
+  }
+
+  #skills {
+    right: -30px;
+  }
+
+  #myPortfolio {
+    left: -10px;
+  }
+
+  section.getInTouch {
+    padding: 40px;
+  }
+  section.getInTouch svg {
+    left: 25%;
+    top: -20px;
+  }
+
+  footer.wrapper li {
+    font-size: 13px;
+    margin: 5px 0;
+  }
+  footer.wrapper li i {
+    color: #e96868;
+    font-size: 15px;
+  }
+}
+@media (max-width: 550px) {
+  section.aboutMe .iAmMila .container .resume {
+    bottom: 20%;
+    right: -40%;
+  }
+}
+@media (max-width: 470px) {
+  .mAshtari h1 {
+    font-size: 25px;
+  }
+
+  section.skills ul {
+    grid-template-columns: 1fr 1fr;
+  }
+  section.skills ul li {
+    font-size: 15px;
+  }
+  section.skills ul li i {
+    font-size: 25px;
+  }
+  section.skills ul li .fa-react {
+    font-size: 30px;
+  }
+  section.skills ul li .firebase {
+    width: 25px;
+  }
+  section.skills ul li .responsiveDesign {
+    width: 30px;
+  }
+
+  section.getInTouch svg {
+    left: 20%;
+  }
+  section.getInTouch .socialMedia {
+    right: -50px;
+  }
+  section.getInTouch .socialMedia li i {
+    font-size: 20px;
+  }
+
+  footer.wrapper {
+    flex-direction: column;
+  }
+  footer.wrapper ul {
+    padding: 0;
+    order: -1;
+  }
+  footer.wrapper ul li i {
+    margin: 0;
+    margin-right: 10px;
+  }
+}
+@media (max-width: 400px) {
+  section.aboutMe .iAmMila .container .resume {
+    padding: 5px 10px;
+  }
+  section.aboutMe .iAmMila .container .resume a {
+    font-size: 15px;
+    margin: 10px 0;
+  }
+}

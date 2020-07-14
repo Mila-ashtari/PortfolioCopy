@@ -1,0 +1,248 @@
+section.aboutMe{
+    position: relative;
+    display: flex;
+    svg{
+        position: absolute;
+        top: -70px;
+        right: 60%;
+    }
+    .iAmMila{
+        width: 50%;
+        h2,p{
+            text-align: right;
+        }
+        .container {
+            position: relative;
+            img{
+                width: 100%;
+                margin-top: 40px;
+                display: block;
+            }
+            .resume{
+                position: absolute;
+                bottom: 20%;
+                right: -15%;
+                padding: 10px 30px;
+                background-color:#e96868;
+                border-left: solid white 3px;
+                a{
+                    display: block;
+                    margin: 15px 0;
+                    color: white;
+                }
+            }
+        }
+    }
+    .description{
+        // background-image: url(/assets/descriptionBackground.png);
+        // background-size:300px ;
+        // background-repeat: space space;
+        // background-position: center;
+        margin-left: 50px;
+        // margin-top: 20px;
+        width:50%;
+        p{
+            padding: 0 20px;
+            text-shadow: 2px 2px white;
+        }
+    }
+}
+section.skills{
+    position: relative;
+    width:85%;
+    h2{
+        margin: 40px 0;
+        text-align: right;
+    }
+    svg{
+        display: block;
+        position: absolute;
+        right: -50px;
+        top: -70px;
+    }
+    ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        grid-gap: 30px;
+        padding: 0;
+        li{
+            text-align: center;
+            background-image: url(../assets/iconBackground.png);
+            background-size: 40px;
+            background-repeat: no-repeat;
+            background-position: 40% 20%;
+        }
+        h3{
+            margin: 15px 0;
+        }
+        i{
+            font-size: 40px;
+            text-shadow: 3px 3px 3px grey;
+        }
+    }
+    .responsiveDesign{
+        width: 40px;
+    }
+
+}
+section.myPortfolio{
+    width: 85%;
+    position: relative;
+    svg{
+        position: absolute; 
+        top:-100px;
+        left: -50px;
+    }
+    
+    ul{
+        padding: 0;
+        h3{
+            color:#e96868 ;
+            margin-top: 0;
+        }
+        li{
+            margin:80px 0;
+            display: flex;
+            img{
+                width:50%;
+                align-self: flex-start;
+            }
+            div{
+                margin:0 20px;
+                width: calc(100%/2 - 40px);
+                
+                .usedTechs{
+                    display: flex;
+                    margin:16px 0;
+                    li{
+                        margin:0;
+                    }
+                }
+                .links{
+                    display: flex;
+                    margin:16px 0;
+                    li{
+                        margin:0;
+                        margin-right: 10px;
+                        button{
+                            padding: 7px;
+                            background-color: #e96868;
+                            border: none;
+                            color: white;
+                            font-size: 15px;
+                            &:hover{
+                                background-color: #add0d7;
+                            }
+                        }
+                        a {
+                            text-decoration: none;
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+        
+    } 
+}
+section.getInTouch{
+    width: 85%;
+    border: solid 4px #65a7b3;
+    padding: 70px;
+    position: relative;
+    h2{
+        text-align: center;
+    }
+    svg{
+        position: absolute; 
+        left: 30%;
+        top: 0;
+    }
+    form{
+        input{
+            display: inline-block;
+            border: none;
+            border-bottom: solid 1px #65a7b363;
+            margin:10px 0;
+            padding: 10px;
+            font-size: 15px;
+        }
+        #name,#email{
+             
+            width: calc(100%/2 - 10px)
+        }
+        #name{
+            margin-right: 10px;
+        }
+        #subject,#message{
+            width: 100%;
+        }
+        #message{
+            height: 50px;
+        }
+        button{
+            display: block;
+            margin: 10px auto;
+            padding: 7px;
+            background-color: #e96868;
+            border: none;
+            color: white;
+            font-size: 15px;
+            &:hover{
+                background-color: #add0d7;
+            }
+        
+    }
+}
+.socialMedia{
+    position: absolute;
+    right: -55px;
+    top: 30%;
+    li{
+        
+        i{
+            color: #e96868;
+            font-size: 25px;
+            margin: 10px 10px;
+        }
+        a{
+            color: black;
+            text-decoration: none;
+            
+        }
+        
+    }
+     
+ }
+}
+footer.wrapper{
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    p{
+        font-size: 17px;
+    }
+    p span:nth-of-type(1){
+        color: #e96868;
+    }
+    p span:nth-of-type(2){
+        color: grey;
+        font-size: 12px;
+    }
+    li{
+        font-size: 17px;
+        margin: 10px 0;
+        i{
+            color: #e96868;
+            font-size: 20px;
+            margin: 0 10px;
+        }
+        a{
+            color: black;
+            text-decoration: none;
+            
+        }
+        
+    }
+}

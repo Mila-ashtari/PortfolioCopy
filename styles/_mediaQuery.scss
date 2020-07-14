@@ -1,0 +1,247 @@
+@media(max-width:800px){
+    header.wrapper{
+        width:auto;
+        nav{
+        width: 100%;
+        padding:50px 20px 50px 20px;
+        .horizontal{
+            display: none;
+        }
+        .hamburgerMenu{
+            display: flex;
+            justify-content: flex-end;
+            position: relative;
+                button{
+                    background-color:rgba(255, 255, 255, 0);
+                    align-self:flex-start;
+                    padding:10px;
+                    font-size: 30px;
+                    color: white;
+                    border: none;
+                    text-shadow: 3px 3px #376a85;
+                    
+                }
+                ul{
+                    position: absolute;
+                    display: none;
+                    right: -200px;
+                    transition: right 500ms;
+                    padding: 0;
+                    background-color:#65a7b3af;
+                    margin: 0;
+                    color: white;
+                    li:first-of-type{
+                        text-align: right;
+                        font-size: 20px;
+                        text-shadow: 3px 3px #376a85;
+                        &:hover{
+                            background-color:#65a7b300 ;
+                        }
+                    }
+                    li{
+                        padding: 15px 15px;
+                        text-shadow: 2px 2px #376a85;
+                        &:hover{
+                            background-color:#223cd33a ;
+                        }
+                    }
+                    a{
+                       
+                        text-transform: uppercase;
+                    }
+                }
+                
+        }
+        }
+        .mAshtari{
+        top:50px;
+        left: 20px;
+        width: 50%;
+        h1{
+        
+        color: white;
+        text-shadow: 2px 2px #2a424e;
+        }
+    
+        }
+        .mAshtari:after {
+        width: 30%;
+        }   
+    }
+
+    section.aboutMe{
+        flex-direction: column;
+        svg{
+            top: -60px;
+            right: 45%;
+        }
+        .iAmMila{
+            width: 70%;
+            .container .resume{
+                bottom: 20%;
+                right: -30%;
+            }
+        }
+        .description{
+            margin-left: 0;
+            margin-top: 20px;
+            width:100%
+        }
+    }
+}
+@media(min-width:900px){
+    section.getInTouch{
+        svg{
+            left: 35%
+        }
+     }
+
+}
+    
+
+@media(max-width:700px){
+    section.skills{
+        ul{
+            grid-template-columns: 1fr 1fr 1fr
+        }
+    }
+    section.myPortfolio{
+        width: 100%;
+        svg{
+            left: -20px;
+        }
+        ul {
+            li.left,li.right{
+            flex-direction: column;
+            margin: 80px 0;
+           div{
+               width: 100%;
+               margin: 0;
+            }
+            img{
+                width: 80%;
+                margin:0 auto
+            }
+            }  
+            li.right img{
+            order: -1;
+            }
+        }
+    }
+        
+}
+
+
+@media(max-width:600px){
+    
+    section.skills{
+        ul li i{
+                    font-size: 30px;
+                }
+    }
+        
+    
+    #skills{
+        right: -30px;
+    }
+    #myPortfolio{
+        left: -10px;
+    }
+    
+    section.getInTouch{
+        
+        padding: 40px;
+        svg{
+            left: 25%;
+           top: -20px;
+        }
+    }
+    footer.wrapper{
+
+        li{
+        font-size: 13px;
+        margin: 5px 0;
+        i{
+            color: #e96868;
+            font-size: 15px;
+        }
+        
+        }
+    }
+}
+@media(max-width:550px){
+    section.aboutMe{
+        
+        .iAmMila .container .resume{
+                bottom: 20%;
+                right: -40%;
+            }
+        
+    }
+}
+
+
+
+@media(max-width:470px){
+    .mAshtari{
+        h1{
+            font-size: 25px;
+        }
+    }
+    section.skills{
+      
+        ul{
+            grid-template-columns: 1fr 1fr;
+            li{
+                font-size: 15px;
+                i{
+                    font-size: 25px;
+                }
+                .fa-react{
+                    font-size: 30px;
+                }
+                .firebase{
+                    width: 25px;
+                }
+                .responsiveDesign{
+                    width: 30px;
+                }
+            }
+        }
+    }
+    section.getInTouch{
+        svg{
+            left: 20%;
+        }
+        .socialMedia{
+            right: -50px;
+            li i{
+                font-size: 20px;
+            }
+        }
+    }
+    footer.wrapper{
+        flex-direction: column;
+        ul{
+            padding: 0;
+            order: -1;
+            li i{
+                margin:0;
+                margin-right: 10px;
+            }
+        }
+    }
+    
+}
+@media(max-width:400px){
+    section.aboutMe{
+        .iAmMila .container .resume{
+             padding: 5px 10px;
+              
+              a{
+                  font-size: 15px;
+                  margin:10px 0;
+                }
+        
+    }
+}}

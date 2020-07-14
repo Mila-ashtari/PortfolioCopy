@@ -1,0 +1,36 @@
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    line-height: 1.5;
+}
+
+.wrapper{
+    max-width: 1200px;
+    width:90%;
+    margin: 0 auto;
+}
+p, a, li{
+    font-family: 'Jost',cursive;
+    font-size: 17px;
+}
+h1{
+    text-transform: capitalize;
+    font-family: 'Jost',cursive;
+    text-shadow: 2px 2px white;
+
+}
+h2{
+    font-family: 'Jost',cursive;
+    
+
+}
+h3{
+    font-family: 'Jost',cursive;
+}
+li{
+    list-style: none;
+}
+section.aboutMe, section.skills, section.myPortfolio{
+    margin:150px auto;
+}
