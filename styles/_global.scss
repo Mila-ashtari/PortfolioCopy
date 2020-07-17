@@ -22,6 +22,7 @@ h1{
 }
 h2{
     font-family: 'Jost',cursive;
+    position: relative;
     
 
 }
@@ -33,4 +34,12 @@ li{
 }
 section.aboutMe, section.skills, section.myPortfolio{
     margin:150px auto;
+}
+hr{
+    transform: rotate(315deg);
+    width:100px;
+    height: 1px;
+    background-color: #e96868;
+    color: #e96868;
+    position: absolute;
 }

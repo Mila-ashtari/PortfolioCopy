@@ -11,6 +11,7 @@
             display: flex;
             justify-content: flex-end;
             position: relative;
+            height: 100%;
                 button{
                     background-color:rgba(255, 255, 255, 0);
                     align-self:flex-start;
@@ -30,6 +31,8 @@
                     background-color:#65a7b3af;
                     margin: 0;
                     color: white;
+                    height: 70%;
+                    width: 150px;
                     li:first-of-type{
                         text-align: right;
                         font-size: 20px;
@@ -88,16 +91,7 @@
             width:100%
         }
     }
-}
-@media(min-width:900px){
-    section.getInTouch{
-        svg{
-            left: 35%
-        }
-     }
-
-}
-    
+} 
 
 @media(max-width:700px){
     section.skills{
@@ -107,8 +101,8 @@
     }
     section.myPortfolio{
         width: 100%;
-        svg{
-            left: -20px;
+        h2{
+            margin: 0 40px;
         }
         ul {
             li.left,li.right{
@@ -149,12 +143,7 @@
     }
     
     section.getInTouch{
-        
         padding: 40px;
-        svg{
-            left: 25%;
-           top: -20px;
-        }
     }
     footer.wrapper{
 
