@@ -344,8 +344,9 @@ section.aboutMe .iAmMila h2, section.aboutMe .iAmMila p {
   text-align: right;
 }
 section.aboutMe .iAmMila h2 hr {
-  right: 80px;
+  right: 60px;
   bottom: 30px;
+  margin-right: 20px;
 }
 section.aboutMe .iAmMila .container {
   position: relative;
