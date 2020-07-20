@@ -153,8 +153,15 @@
     section.aboutMe{
         
         .iAmMila .container .resume{
+            
+                padding: 5px 10px;
                 bottom: 20%;
-                right: -40%;
+                right: -30%;
+                a{
+                    font-size: 15px;
+                    margin:10px 0;
+                  }
+          
             }
         
     }
@@ -216,12 +223,6 @@
 @media(max-width:400px){
     section.aboutMe{
         .iAmMila .container .resume{
-             padding: 5px 10px;
-              
-              a{
-                  font-size: 15px;
-                  margin:10px 0;
-                }
-        
+            right: -40%;
     }
 }}
