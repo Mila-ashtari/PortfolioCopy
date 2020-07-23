@@ -369,6 +369,9 @@ section.aboutMe .iAmMila .container .resume a {
   margin: 15px 0;
   color: white;
 }
+section.aboutMe .iAmMila .container .resume a i {
+  font-size: 12px;
+}
 section.aboutMe .description {
   margin-left: 50px;
   width: 50%;
