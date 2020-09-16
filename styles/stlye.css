@@ -230,10 +230,6 @@ html {
   overflow: hidden;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   line-height: 1.5;
 }
@@ -300,12 +296,12 @@ header nav a {
   font-family: "Jost", cursive;
   font-size: 15px;
 }
-header nav .horizontal ul {
+header nav .horizontalMenu ul {
   display: flex;
   justify-content: flex-end;
   margin: 0;
 }
-header nav .horizontal ul li {
+header nav .horizontalMenu ul li {
   margin: 0 20px;
 }
 header nav .hamburgerMenu {
@@ -331,6 +327,14 @@ header .mAshtari:after {
   position: absolute;
   left: 0;
   bottom: 0;
+}
+header .fa-chevron-down {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  color: white;
+  width: 20px;
+  animation: flash 3s infinite;
 }
 
 section.aboutMe {
@@ -571,7 +575,7 @@ footer.wrapper li a {
     width: 100%;
     padding: 50px 20px 50px 20px;
   }
-  header.wrapper nav .horizontal {
+  header.wrapper nav .horizontalMenu {
     display: none;
   }
   header.wrapper nav .hamburgerMenu {

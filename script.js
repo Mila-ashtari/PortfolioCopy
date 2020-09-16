@@ -15,9 +15,19 @@ App.menu=function(){
        },400)
    })
 }
+App.smoothScroll=function(){
+    $("nav a, .scrollDown").on("click", function (e) {
+        e.preventDefault();
+        const href = $(this).attr("href");
+        $("html, body").animate({ scrollTop: $(href).offset().top }, 700);
+      });
+    
+}
 App.inint=function(){
     App.menu()
+    App.smoothScroll()
 }
 $(function(){
     App.inint()
 })
+

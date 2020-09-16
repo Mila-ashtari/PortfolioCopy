@@ -16,7 +16,7 @@ header{
             font-family: 'Jost',cursive;
             font-size: 15px;
         }
-        .horizontal{
+        .horizontalMenu{
             ul{
             display: flex;
             justify-content: flex-end;
@@ -47,5 +47,13 @@ header{
         left:0;
         bottom:0;
 
-}
+    }
+    .fa-chevron-down{
+        position: absolute;
+        bottom: 30px;
+        left: 50%;
+        color:white;
+        width: 20px;
+        animation: flash 3s infinite;
+    }
 }
