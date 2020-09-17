@@ -16,7 +16,7 @@ header{
             font-family: 'Jost',cursive;
             font-size: 15px;
         }
-        .horizontal{
+        .horizontalMenu{
             ul{
             display: flex;
             justify-content: flex-end;
@@ -25,9 +25,47 @@ header{
             li{
                 margin:0 20px;
             }
-        }}
+            }}
         .hamburgerMenu{
-            display: none;    
+            display: none;
+            position: absolute;
+            top: 0;
+            z-index: 2;
+            left: 0;
+            width: 100%;
+            height: 100%;
+                button.hamburger--spin{
+                    position: absolute;
+                    top:10% ;
+                    right:10%;
+                }
+                ul{
+                    display: none;
+                    transition: right 500ms;
+                    padding: 0;
+                    padding-top:30%;
+                    background-color:#65a7b3e0;
+                    margin: 0;
+                    color: white;
+                    height: 100%;
+                    width: 100%;
+                    text-align: center;
+                    li{
+                        padding: 15px 15px;
+                        text-shadow: 2px 2px #376a85;
+                        &:hover{
+                            background-color:#223cd33a ;
+                        }
+                    }
+                    a{
+                       
+                        text-transform: uppercase;
+                    }
+                }
+                ul.active{
+                    display: block;
+                }
+                
         }
     }
     .mAshtari{
@@ -47,5 +85,15 @@ header{
         left:0;
         bottom:0;
 
-}
+    }
+    .scrollDown{
+        position: absolute;
+        bottom: 30px;
+        left: 50%;
+        .fa-chevron-down{
+            color:white;
+            width: 20px;
+            animation: flash 3s infinite;
+        }
+    }
 }
