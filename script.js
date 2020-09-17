@@ -9,7 +9,6 @@ App.smoothScroll=function(){
     $("nav a, .scrollDown").on("click", function (e) {
         e.preventDefault();
         const href = $(this).attr("href");
-        console.log(href)
         $("html, body").animate({ scrollTop: $(href).offset().top }, 700);
       });
     
