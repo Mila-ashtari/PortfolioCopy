@@ -8,54 +8,9 @@
             display: none;
         }
         .hamburgerMenu{
-            display: flex;
-            justify-content: flex-end;
-            position: relative;
-            height: 100%;
-                button{
-                    background-color:rgba(255, 255, 255, 0);
-                    align-self:flex-start;
-                    padding:10px;
-                    font-size: 30px;
-                    color: white;
-                    border: none;
-                    text-shadow: 3px 3px #376a85;
-                    
-                }
-                ul{
-                    position: absolute;
-                    display: none;
-                    right: -200px;
-                    transition: right 500ms;
-                    padding: 0;
-                    background-color:#65a7b3af;
-                    margin: 0;
-                    color: white;
-                    height: 70%;
-                    width: 150px;
-                    li:first-of-type{
-                        text-align: right;
-                        font-size: 20px;
-                        text-shadow: 3px 3px #376a85;
-                        &:hover{
-                            background-color:#65a7b300 ;
-                        }
-                    }
-                    li{
-                        padding: 15px 15px;
-                        text-shadow: 2px 2px #376a85;
-                        &:hover{
-                            background-color:#223cd33a ;
-                        }
-                    }
-                    a{
-                       
-                        text-transform: uppercase;
-                    }
-                }
-                
+            display: block;
         }
-        }
+        } 
         .mAshtari{
         top:50px;
         left: 20px;
@@ -70,6 +25,7 @@
         .mAshtari:after {
         width: 30%;
         }   
+    
     }
 
     section.aboutMe{
