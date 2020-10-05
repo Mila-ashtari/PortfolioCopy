@@ -18,11 +18,16 @@ App.menu=function(){
     })
 }
 App.smoothScroll=function(){
-    $("nav a, .scrollDown").on("click", function (e) {
+    $(".horizontalMenu a, hamburgerMenu a, .scrollDown").on("click", function (e) {
         e.preventDefault();
         const href = $(this).attr("href");
         $("html, body").animate({ scrollTop: $(href).offset().top }, 700);
       });
+    $(".mainMenu a").on("click", function (e) {
+        e.preventDefault();
+        const href = $(this).attr("href");
+        $("html, body").animate({ scrollTop: $(href).offset().top - 70}, 700);
+    });
     
 }
 App.inint=function(){
