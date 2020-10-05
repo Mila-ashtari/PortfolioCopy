@@ -4,11 +4,14 @@ main.wrapper{
 nav.mainMenu{
     display:none;
     justify-content: space-between;
-    position: sticky;
+    position: fixed;
     top: 0;
+    left:0;
     z-index: 1;
     background-color: #65a7b3e3;
     padding:0px 40px;
+    width: 100%;
+    max-width: 1200px;
     p.milaAshtari{
         font-size: 17px;
         margin:10px 0;
