@@ -18,7 +18,7 @@ App.menu=function(){
     })
 }
 App.smoothScroll=function(){
-    $(".horizontalMenu a, hamburgerMenu a, .mainMenu a, .scrollDown").on("click", function (e) {
+    $(".horizontalMenu a, .hamburgerMenu a, .mainMenu a, .scrollDown").on("click", function (e) {
         e.preventDefault();
         const href = $(this).attr("href");
         $("html, body").animate({ scrollTop: $(href).offset().top -70 }, 700);

@@ -126,6 +126,12 @@
 
 
 @media(max-width:470px){
+    nav.mainMenu{
+        padding: 0 10px;
+        p.milaAshtari{
+            display: none;
+        }
+    }
     .mAshtari{
         h1{
             font-size: 25px;

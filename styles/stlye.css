@@ -1170,7 +1170,7 @@ header nav .hamburgerMenu ul {
   display: none;
   transition: right 500ms;
   padding: 0;
-  padding-top: 30%;
+  padding-top: 100px;
   background-color: #65a7b3e0;
   margin: 0;
   color: white;
@@ -1596,6 +1596,13 @@ footer.wrapper li a {
   }
 }
 @media (max-width: 470px) {
+  nav.mainMenu {
+    padding: 0 10px;
+  }
+  nav.mainMenu p.milaAshtari {
+    display: none;
+  }
+
   .mAshtari h1 {
     font-size: 25px;
   }
